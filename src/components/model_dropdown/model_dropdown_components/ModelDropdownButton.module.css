@@ -1,0 +1,39 @@
+.listHeader {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:12px;
+    padding-left: 5.5rem;
+    border:2px;
+    border-radius:15px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.listHeader:hover {
+    background-color: var(--alt-main);
+}
+
+.toggleIcon {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.buttonClosed {
+    background-color: var(--main-color);
+    transition: background-color 0.5s;
+}
+
+.buttonClosed:hover {
+    background-color: var(--alt-main);
+}
+
+.buttonOpen {
+    background-color: var(--alt-main);
+}

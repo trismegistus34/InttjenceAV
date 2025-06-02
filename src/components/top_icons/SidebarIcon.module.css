@@ -1,0 +1,9 @@
+.buttonStyle {
+    color: var(--main-color);
+    transition: color 0.2s;
+    cursor:pointer
+}
+
+.buttonStyle:hover {
+    color: var(--alt-main);
+}

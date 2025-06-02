@@ -1,0 +1,14 @@
+.buttonStyle {
+    color: white;
+    transition: color 0.2s;
+    cursor:pointer;
+    display:flex;
+    max-height: 50px;
+    justify-content: flex-end;
+    margin-right: -300px;
+    margin-top: -10px;
+}
+
+.buttonStyle:hover {
+    color: var(--alt-main);
+}

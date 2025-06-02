@@ -1,0 +1,17 @@
+html {
+    --background-light: rgb(255, 255, 255);
+    --background-dark: rgb(20, 19, 20);
+    --main-color: #3c1c50;
+    --alt-main: #d96d08;
+    --main-accent: #920f85;
+    --main-border: #d1d1d1;
+    --main-hover: #d5d5df;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    height:100%;
+    box-sizing: border-box;
+}

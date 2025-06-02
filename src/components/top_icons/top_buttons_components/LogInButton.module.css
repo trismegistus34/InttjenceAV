@@ -1,0 +1,22 @@
+.buttonStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    transition: background-color 0.2s;
+    font-size:15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:2px transparent;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    max-height: 25px;
+    text-decoration: none;
+}
+
+.buttonStyle:hover {
+    background-color: var(--main-accent);
+}

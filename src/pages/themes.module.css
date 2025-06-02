@@ -1,0 +1,23 @@
+.backgroundStyle {
+    height:100vh;
+    margin:0;
+    overflow: hidden;
+}
+
+.lightTheme {
+    background-color: var(--background-light);
+    color: black;
+}
+
+.darkTheme {
+    background-color: var(--background-dark);
+    color: white;
+}
+
+.textContainerLight {
+    background-color: white;
+}
+
+.textContainerDark {
+    background-color: rgb(48, 42, 47);
+}
